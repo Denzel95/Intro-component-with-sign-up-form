@@ -1,0 +1,85 @@
+@media (max-width: 69em) {
+  body {
+    align-items: flex-start;
+  }
+  .heading {
+    font-size: 3.6rem;
+  }
+
+  .right-side {
+    width: 45rem;
+  }
+
+  .left-side {
+    padding-left: 8rem;
+    margin-top: 4rem;
+  }
+
+  form {
+    gap: 2.4rem;
+  }
+
+  .btn {
+    padding: 1.6rem 6.4rem;
+  }
+
+  .btm-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 56em) {
+  .left-side {
+    padding-left: 6.4rem;
+  }
+
+  .heading {
+    font-size: 3rem;
+  }
+
+  .right-side {
+    width: 35rem;
+  }
+
+  .btn-text {
+    line-height: 2.2;
+  }
+
+  @media (max-width: 50em) {
+    html {
+      font-size: 56.25%;
+    }
+
+    .left-side {
+      padding-left: 4.8rem;
+    }
+  }
+
+  @media (max-width: 44em) {
+    .container {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      gap: 6.4rem;
+      text-align: center;
+    }
+
+    .left-side {
+      padding-left: 0;
+      width: 60%;
+    }
+
+    .heading {
+      margin-bottom: 2.4rem;
+    }
+  }
+
+  @media (max-width: 27em) {
+    .heading {
+      font-size: 2.4rem;
+    }
+
+    .btm-text {
+      padding: 0 10%;
+    }
+  }
+}
